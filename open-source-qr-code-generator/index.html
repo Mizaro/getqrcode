@@ -11,13 +11,13 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Open-Source QR Code Generator","url":"https://honestqrcode.com/open-source-qr-code-generator/","about":"Client-side static QR code generation","license":"https://www.apache.org/licenses/LICENSE-2.0"}</script>
 </head>
 <body class="seo-page">
-  <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="/"><span class="brand-mark" aria-hidden="true">H</span><span>Honest QR Code</span></a><div class="nav-links"><a class="github-link" href="https://github.com/Mizaro/honestqrcode" target="_blank" rel="noopener">↗ Source on GitHub</a></div></nav><div class="hero"><p class="open-source-pill">Apache-2.0 · no build step</p><h1>Open-source QR code generator</h1><p class="hero-lead">Plain HTML, CSS, and JavaScript. Review every line, clone it, change it, or host it on your own infrastructure.</p><div class="hero-actions"><a class="btn btn-primary hero-button" href="https://github.com/Mizaro/honestqrcode" target="_blank" rel="noopener">Explore the repository</a><a class="btn btn-secondary hero-button" href="/#generator">Try the generator</a></div></div></header>
+  <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="/"><span class="brand-mark" aria-hidden="true">H</span><span>Honest QR Code</span></a><div class="nav-links"><a class="github-link" href="https://github.com/honestqrcode/honestqrcode" target="_blank" rel="noopener">↗ Source on GitHub</a></div></nav><div class="hero"><p class="open-source-pill">Apache-2.0 · no build step</p><h1>Open-source QR code generator</h1><p class="hero-lead">Plain HTML, CSS, and JavaScript. Review every line, clone it, change it, or host it on your own infrastructure.</p><div class="hero-actions"><a class="btn btn-primary hero-button" href="https://github.com/honestqrcode/honestqrcode" target="_blank" rel="noopener">Explore the repository</a><a class="btn btn-secondary hero-button" href="/#generator">Try the generator</a></div></div></header>
   <main class="article-shell">
     <h2>Small enough to understand</h2>
     <p>Honest QR Code is intentionally a static application. It has no framework, package manager, database, account system, or runtime API. The browser loads local JavaScript, converts your content into a QR matrix, and renders downloadable images.</p>
     <div class="callout"><strong>Privacy architecture:</strong> QR payload generation requires no server connection. The production Content Security Policy sets <code>connect-src 'none'</code>, providing a browser-enforced boundary against outbound app requests.</div>
     <h2>Run it locally</h2>
-    <pre class="code-window"><code>git clone https://github.com/Mizaro/honestqrcode.git
+    <pre class="code-window"><code>git clone https://github.com/honestqrcode/honestqrcode.git
 cd honestqrcode
 python -m http.server 8080</code></pre>
     <p>Then open <code>http://localhost:8080</code>. You can also deploy the repository contents to GitHub Pages, Netlify, Cloudflare Pages, an Apache document root, or another static host.</p>
@@ -25,8 +25,8 @@ python -m http.server 8080</code></pre>
     <p>The project license permits use, reproduction, modification, distribution, and commercial use subject to its terms, including retaining the license and applicable notices. The vendored QR encoder retains its separate MIT notice. Read the actual license files before redistributing a modified copy.</p>
     <h2>Contributions are welcome</h2>
     <p>Bug reports, accessibility improvements, standards corrections, and focused features are welcome on GitHub. Changes should preserve client-side generation, avoid tracking, and keep the default deployment understandable and auditable.</p>
-    <div class="hero-actions"><a class="btn btn-primary hero-button" href="https://github.com/Mizaro/honestqrcode" target="_blank" rel="noopener">View on GitHub</a></div>
+    <div class="hero-actions"><a class="btn btn-primary hero-button" href="https://github.com/honestqrcode/honestqrcode" target="_blank" rel="noopener">View on GitHub</a></div>
   </main>
-  <footer class="site-footer"><div><a class="brand footer-brand" href="/"><span class="brand-mark" aria-hidden="true">H</span><span>Honest QR Code</span></a><p>Free, private, and open source.</p></div><nav aria-label="Footer navigation"><a href="/">Generator</a><a href="https://github.com/Mizaro/honestqrcode">GitHub</a></nav></footer>
+  <footer class="site-footer"><div><a class="brand footer-brand" href="/"><span class="brand-mark" aria-hidden="true">H</span><span>Honest QR Code</span></a><p>Free, private, and open source.</p></div><nav aria-label="Footer navigation"><a href="/">Generator</a><a href="https://github.com/honestqrcode/honestqrcode">GitHub</a></nav></footer>
 </body>
 </html>
