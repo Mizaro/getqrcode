@@ -6,7 +6,7 @@ The current `main` branch and the production deployment at <https://honestqrcode
 
 ## Reporting a vulnerability
 
-Please use [GitHub private vulnerability reporting](https://github.com/Mizaro/honestqrcode/security/advisories/new). Do not open a public issue for a vulnerability that could put users at risk.
+Please use [GitHub private vulnerability reporting](https://github.com/honestqrcode/honestqrcode/security/advisories/new). Do not open a public issue for a vulnerability that could put users at risk.
 
 Include the affected file or URL, reproduction steps, impact, and any suggested mitigation. You should receive an acknowledgement within seven days. Please allow reasonable time for a fix before public disclosure.
 
